@@ -1,0 +1,151 @@
+*{
+  color: #B2B2B2;
+  font-family: helvetica neue;
+}
+#usable{
+  position: absolute;
+  width: 500px;
+  height: 900px;
+  margin-left: 25%;
+  margin-right: auto;
+}
+
+#nav {
+  margin-top: 20px;
+  border-top: solid #E6E6E6 1px;
+  border-bottom: solid #E6E6E6 1px;
+  height: 50px;
+}
+
+.nav_button{
+  position: absolute;
+  display: inline;
+  height: 50px;
+  left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;  
+}
+
+#nav{
+  position: relative;
+}
+
+#nav li{
+  list-style-type: none;
+  margin-top: 12px;
+}
+.nav_button:hover{
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
+
+#nav li:hover{
+  color: black;
+}
+
+
+/*Navbar buttons position*/
+#blog_nav {
+    
+}
+#photo_nav {
+    left: 80px;
+}
+#portfolio_nav {
+    left: 220px;
+}
+
+#content{
+  position: relative;
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  top: 35px;
+  color: #A1A1A1;
+}
+
+#date{
+  color: #E6E6E6;
+  font-size: 12px;
+  margin-top: -18px;
+  margin-bottom: -10px;
+}
+
+#content p{
+  line-height: 25px;  
+}
+
+
+
+
+ul.follow-buttons{
+  list-style: none;
+  margin-top: 5px;
+  float: right;
+  padding-right: 10px;
+  border-bottom: solid #E6E6E6 1px;
+}
+
+ul.follow-buttons li:hover{
+  opacity: 1;
+}
+
+ul.follow-buttons li{
+  display: inline;
+  padding-left: 6px;
+  opacity: 0.6;
+}
+
+ul.follow-buttons img {
+  max-height: 23px;
+}
+
+
+
+//slider shite
+
+.wrapper {
+  margin: auto;
+  position: absolute;
+}
+
+#slider {
+  position: relative;
+  width: 678px;
+  height: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-left: -100px;
+  margin-top: 50px;
+}
+
+#slider > img {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  max-width: 800px;
+  max-height: 500px;
+  display: none;
+}
+
+.scroll_buttons {
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: none;
+  border-radius: 2px;
+  margin: 10px auto;
+  border-top: #E6E6E6 solid 1px;
+
+}
+.scroll_buttons:hover {
+  border-top: black solid 1px;
+  color: black;
+}
+
+#left_button{
+  float: left;
+}
+#right_button{
+  float: right;
+}
