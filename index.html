@@ -4,6 +4,7 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <title>Jack Murphy About</title>
 </head>
 <body>
   <div id="usable">
@@ -20,16 +21,16 @@
           <li>A PHOTO A DAY</li>
         </div>
       </a>
-      <a href="#">
-        <div id="portfolio_nav" class="nav_button">
-          <li>PORTFOLIO</li>
+      <a href="creations.html">
+        <div id="creations_nav" class="nav_button">
+          <li>CREATIONS</li>
         </div>
       </a>
     </div>
 
     <div>
       <ul class="follow-buttons">
-        <li><a href="https://twitter.com/jmurphyweb" target="_blank" title="Follow"><img src="follow-icons/twitter.png"></a></li>
+        <li><a href="https://twitter.com/JMurphyWeb?lang=en" target="_blank" title="Twitter"><img src="follow-icons/twitter.png"></a></li>
 
         <li><a href="https://github.com/JMurphyWeb" target="_blank" title="GitHub"><img src="follow-icons/github.png"></a></li>
 
@@ -43,11 +44,41 @@
     </div>
 
 
+
     <div id="content">
+        <div id="description">
+          <h3>hello</h3>
+          <p>I will include anything that I make</p>
+        </div>  
+
+
       <h3>A quick update</h3></h3>
       <p id="date">20 August 2015</p>
 
       <p>Tonight I have been looking into some GitHub basics.  As can be seen from the URL, I am hosting this site through GitHub's gh-pages.  The basic steps have been to create a new branch called "gh-pages", then to add, commit and push files from my computer into the new branch.  Now I am exploring how to commit directly from the master branch, rather than from my local directory every time.  Wish me luck....</p>
+
+      <p>Ok, semi-success.  I cannot yet commit directly from the master branch, but I have managed to eradicate the issues in my gh-pages index.html file.  The commands at the bottom of this post proved most useful</p>
+
+      <p> I can now clone a repository from github onto my computer, update it on my computer using Sublime Text 2, then upload the new file(s) to GitHub all via the command line.<br><br>
+
+
+      Step one: navigate to desired location for repository to be cloned into your computer using the commands ls and cd. Use mkdir new-folder-name to create a new folder. Next we want to clone from git:
+      <br><br>
+
+      $ git clone "copy the url of the repository here, excluding quotation marks" 
+      <br><br>
+
+      Now you have the full repository uploaded onto your computer, you can "open" adapt and then save files.  Once saved, you want to update your GitHub repository:
+      <br><br>
+
+      $ git add -A <br>
+      $ git commit -m "some note for the update eg. New blog post"<br>
+      $ git push origin master</p><br>
+
+      <p>Some other useful git commands:<br>
+        git status, git branch, git checkout "branchname", git rm "filename", git push</p>
+
+
       <br><br><br>
 
 
