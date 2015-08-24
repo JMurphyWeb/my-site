@@ -51,9 +51,10 @@
 #photo_nav {
     left: 80px;
 }
-#portfolio_nav {
+#creations_nav {
     left: 220px;
 }
+
 
 #content{
   position: relative;
@@ -62,6 +63,10 @@
   margin: auto;
   top: 35px;
   color: #A1A1A1;
+}
+
+#description{
+
 }
 
 #date{
