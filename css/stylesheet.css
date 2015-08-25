@@ -1,6 +1,6 @@
 *{
-  color: #B2B2B2;
-  font-family: helvetica neue;
+  font-family: sans-serif;
+  color: #484848;
 }
 #usable{
   position: absolute;
@@ -11,97 +11,100 @@
 }
 
 #nav {
-  margin-top: 20px;
-  border-top: solid #E6E6E6 1px;
-  border-bottom: solid #E6E6E6 1px;
-  height: 50px;
+  margin-top: 30px;
+  border-top: solid #efefef 1px;
+  border-bottom: solid #efefef 1px;
 }
 
-.nav_button{
-  position: absolute;
-  display: inline;
-  height: 50px;
-  left: 20px;
-  padding-left: 10px;
-  padding-right: 10px;  
-}
-
-#nav{
-  position: relative;
-}
-
-#nav li{
+#nav ul{
   list-style-type: none;
-  margin-top: 12px;
-}
-.nav_button:hover{
-  border-top: solid black 1px;
-  border-bottom: solid black 1px;
+  padding: 0px;
+  margin: 0px;
+  font-size: small;
 }
 
-#nav li:hover{
-  color: black;
+#nav li {
+  display: inline-block;
+  border-top: solid white 1px;
+
+}
+
+#nav a {
+  display: inline-block;
+  min-width: 50px;
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 13px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #BFBFBF;
+}
+
+#nav li:hover {
+  border-top: solid #484848 1px;
+}
+
+#nav a:hover {
+  color: #484848;
 }
 
 
-/*Navbar buttons position*/
-#blog_nav {
-    
+#follow-buttons ul{
+  float: right;
+  list-style-type: none;
+  padding: 0px 15px 5px 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+  border-bottom: solid #efefef 1px;
 }
-#photo_nav {
-    left: 80px;
+
+#follow-buttons li{
+  display: inline-block;
+  padding-right: 5px;
 }
-#creations_nav {
-    left: 220px;
+
+#follow-buttons img{
+  width: 20px;
+  opacity: 0.3;
+}
+#follow-buttons img:hover{
+  opacity: 0.8;
+}
+#under-nav{
+  margin-top: 10px;
+  height: 15px;
+}
+
+#page-description{
+  margin: 10px 10px 0px 10px;
+  min-height: 30px;
+}
+#page-description p{
+  line-height: 20px;
+  font-size: smaller;
+  margin-top: -10px;
+  padding: 0px;
+}
+#page-description h3{
+  margin-right: 140px;
+  margin-top: 20px;
 }
 
 
 #content{
-  position: relative;
   width: 95%;
   height: 500px;
   margin: auto;
-  top: 35px;
-  color: #A1A1A1;
+  padding-top: 10px;
 }
 
-#description{
-
-}
-
-#date{
-  color: #E6E6E6;
-  font-size: 12px;
-  margin-top: -18px;
-  margin-bottom: -10px;
-}
 
 #content p{
-  line-height: 25px;  
+  color: #484848;
+  line-height: 20px;
+  font-size: smaller;
 }
 
 
-
-
-ul.follow-buttons{
-  list-style: none;
-  margin-top: 5px;
-  float: right;
-  padding-right: 10px;
-  border-bottom: solid #E6E6E6 1px;
-}
-
-ul.follow-buttons li:hover{
-  opacity: 1;
-}
-
-ul.follow-buttons li{
-  display: inline;
-  padding-left: 6px;
-  opacity: 0.6;
-}
-
-ul.follow-buttons img {
-  max-height: 23px;
-}
 
